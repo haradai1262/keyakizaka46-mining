@@ -22,6 +22,9 @@
 
 |- result/ # result
 
+|- secret/ # secret files ( e.g. API info )
+   |- 
+
 |- script/
    |
    |- blog_mining/
@@ -36,8 +39,7 @@
    |- tweet_mining/
       |- get_twitterstream.ipynb # ... save twitter stream with search query
 
-|- secret/ # secret files ( e.g. API info )
-   |- 
+
 ```
 
 ### references
