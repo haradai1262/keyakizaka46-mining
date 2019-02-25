@@ -29,9 +29,10 @@ RUN apt install fonts-takao -y
 # NLP
 RUN pip install neologdn
 RUN conda install -c anaconda gensim -y
+RUN pip install annoy
 
 # tweepy
 RUN pip install tweepy
 
 CMD jupyter-lab --no-browser \
-  --port=8888 --ip=0.0.0.0 --allow-root
+  --port=8889 --ip=0.0.0.0 --allow-root
