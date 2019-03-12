@@ -34,5 +34,9 @@ RUN pip install annoy
 # tweepy
 RUN pip install tweepy
 
+# opencv
+RUN pip install opencv-python
+RUN pip install opencv-contrib-python
+
 CMD jupyter-lab --no-browser \
   --port=8889 --ip=0.0.0.0 --allow-root

@@ -4,6 +4,6 @@ services:
         build: .
         volumes:
             - ./:/workspace
-            - "/home/myaun/Dropbox/data/keyakizaka_mining:/keyakizaka_mining"
+            - "/home/daichi/Dropbox/data/keyakizaka_mining:/keyakizaka_mining"
         ports:
             - "8889:8889"
